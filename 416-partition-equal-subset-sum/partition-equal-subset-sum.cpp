@@ -1,7 +1,7 @@
 class Solution {
 public:
 
-bool SubsetSum(vector<vector<bool>>mat,vector<int>& nums,int sum){
+bool SubsetSum(vector<vector<bool>> mat, vector<int>& nums, int sum){
 
     for(int i = 1;i<mat.size();i++){
         for(int j= 1;j<mat[0].size();j++){
